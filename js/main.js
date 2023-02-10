@@ -16,9 +16,9 @@ function calculate(num1, num2) {
     }
 
     if (multi >= 0) {
-        console.log(`Wynik mnożenia wynosi ${product}`);
+        console.log(`Wynik mnożenia wynosi ${multi}`);
     } else {
         console.log(`Wynik jest nieprawidłowy`);
     }
 }
-console.log(calculate());
+calculate(10, 7);
