@@ -21,3 +21,4 @@ function calculate(num1, num2) {
         console.log(`Wynik jest nieprawidłowy`);
     }
 }
+console.log(calculate());
